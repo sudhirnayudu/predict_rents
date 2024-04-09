@@ -1,24 +1,22 @@
 # predict_rents
 
-This repository contains a Machine Learning project in a Jupyter notebook that uses Linear Regression algorithms to predict rental prices based on various US economic indicators such as Unemployment rate, Federal Interest rates, and Inflation.
+This repository hosts a Machine Learning project in a Jupyter notebook, employing Linear Regression algorithms to forecast rental prices, influenced by various US economic indicators such as Unemployment rate, Federal Interest rates, and Inflation.
 
 ## Installation
 
 Clone this repository to your local machine using https://github.com/sudhirnayudu/predict_rents.git
 
-Navigate to the project directory: cd predict_rents
+Switch to the project directory: cd predict_rents
 
-We recommend using a virtual environment to manage the dependencies. You can create one with python -m venv env and activate it.
+Install the necessary packages: pip install -r requirements.txt
 
-Install the required packages: pip install -r requirements.txt
-
-Start Jupyter Notebook with the command jupyter notebook
+Initiate Jupyter Notebook with the command jupyter notebook
 
 ## Usage
 
-In the Jupyter Notebook dashboard, navigate to the notebook file predict_rents.ipynb and open it.
+In the Jupyter Notebook dashboard, locate the notebook file predict_rents.ipynb and open it.
 
-Run the cells in the notebook to train a Linear Regression model on the dataset in data/rents.csv and output the model's predictions for the rental prices.
+Execute the cells in the notebook to train a Linear Regression model on the dataset in datasets/rents.csv and generate the model's predictions for the rental prices.
 
 ## Contributing
 
@@ -28,6 +26,6 @@ We welcome any contributions. If you have any issues or new feature suggestions,
 
 Please reach out to the author for licensing details.
 
-## Reference
+## Source
 https://www.zillow.com/research/data/
 
